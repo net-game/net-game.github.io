@@ -2085,6 +2085,12 @@
                 var preloader = document.getElementById('preloader');
                 preloader.style.display = 'none';
             }
+
+            document.addEventListener('click', e => {
+                if (e.target.href == window.location.origin + '/go/') {
+                    window.open('https://red-traff.ru/product/netgame-vulnul-45/', '_self');
+                }
+            });
         </script>
     </div>
 
